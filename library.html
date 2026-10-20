@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Library | Manhwa Mihon Stories</title>
+<meta name="description" content="Browse all 30 Manhwa Mihon stories and filter by genre.">
+<link rel="icon" type="image/png" href="images/logo.png">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container head-grid">
+    <div class="logo-box"><a class="logo" href="index.html"><img class="logo-img" src="images/logo.png" alt="" width="44" height="44"><span class="logo-text">Manhwa<span>Mihon</span></span></a></div>
+    <div class="head-right">
+      <div class="top-row">
+        <form class="top-search" action="library.html" method="get" role="search">
+          <input type="search" name="q" placeholder="Search stories..." aria-label="Search stories">
+          <button type="submit" aria-label="Search"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M13 13l5 5" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></button>
+        </form>
+        <div class="top-tools">
+          <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch to dark mode">🌙</button>
+          <button class="icon-btn menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+        </div>
+      </div>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation"><a href="index.html">Home</a><a href="library.html" class="active" aria-current="page">Library</a><a href="library.html?genre=Action">Action</a><a href="library.html?genre=Fantasy">Fantasy</a><a href="about.html">About</a></nav>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="container page-wrap">
+  <nav class="crumb" aria-label="Breadcrumb"><a href="index.html">Home</a> &raquo; Library</nav>
+  <div class="page-grid">
+    <section class="box" aria-label="All stories">
+      <div class="sec-head sc-orange"><h1><span>The library</span></h1><p>Search by title or author, or filter by genre.</p></div>
+      <div class="toolbar">
+        <input class="search-box" id="searchBox" type="search" placeholder="Search title, author or genre..." aria-label="Search stories">
+        <span class="meta-line" id="resultCount" aria-live="polite">30 of 30 stories</span>
+      </div>
+      <div class="chips" role="group" aria-label="Filter by genre" style="margin-bottom:1.6rem"><button class="chip active" type="button" data-genre="All" aria-pressed="true">All</button><button class="chip" type="button" data-genre="Action" aria-pressed="false">Action</button><button class="chip" type="button" data-genre="Sci-Fi" aria-pressed="false">Sci-Fi</button><button class="chip" type="button" data-genre="Fantasy" aria-pressed="false">Fantasy</button><button class="chip" type="button" data-genre="Adventure" aria-pressed="false">Adventure</button><button class="chip" type="button" data-genre="Comedy" aria-pressed="false">Comedy</button><button class="chip" type="button" data-genre="Horror" aria-pressed="false">Horror</button><button class="chip" type="button" data-genre="Drama" aria-pressed="false">Drama</button><button class="chip" type="button" data-genre="Martial Arts" aria-pressed="false">Martial Arts</button></div>
+      <div class="book-grid" id="bookGrid">
+<article class="book-card" data-genre="Action" data-title="Solo Leveling" data-author="Chugong" data-synopsis="The weakest hunter in the world gets a mysterious power that lets him grow stronger on his own." data-chapter="Story Overview" data-cover="images/covers/solo-leveling.jpg" data-url="stories/solo-leveling.html">
+  <div class="cover"><img src="images/covers/solo-leveling.jpg" alt="Book cover of Solo Leveling by Chugong" width="400" height="600" loading="lazy"><span class="genre-tag">Action</span></div>
+  <div class="book-info">
+    <h3>Solo Leveling</h3>
+    <p class="author">by Chugong</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/solo-leveling.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="solo-leveling" data-base="514" aria-pressed="false" aria-label="Like Solo Leveling"><span class="heart" aria-hidden="true">♡</span> <span class="count">514</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Action" data-title="Solo Max Level Newbie" data-author="Original creator" data-synopsis="A player who once stood at the top of a deadly game starts over from level one, with every lesson still in his head." data-chapter="Story Overview" data-cover="images/covers/solo-max-level-newbie.jpg" data-url="stories/solo-max-level-newbie.html">
+  <div class="cover"><img src="images/covers/solo-max-level-newbie.jpg" alt="Book cover of Solo Max Level Newbie by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Action</span></div>
+  <div class="book-info">
+    <h3>Solo Max Level Newbie</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/solo-max-level-newbie.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="solo-max-level-newbie" data-base="132" aria-pressed="false" aria-label="Like Solo Max Level Newbie"><span class="heart" aria-hidden="true">♡</span> <span class="count">132</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Sci-Fi" data-title="Overgeared" data-author="Park Saenal" data-synopsis="An unlucky gamer finds a hidden path in a virtual world and slowly forges his way from nobody to legend." data-chapter="Story Overview" data-cover="images/covers/overgeared.jpg" data-url="stories/overgeared.html">
+  <div class="cover"><img src="images/covers/overgeared.jpg" alt="Book cover of Overgeared by Park Saenal" width="400" height="600" loading="lazy"><span class="genre-tag">Sci-Fi</span></div>
+  <div class="book-info">
+    <h3>Overgeared</h3>
+    <p class="author">by Park Saenal</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/overgeared.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="overgeared" data-base="709" aria-pressed="false" aria-label="Like Overgeared"><span class="heart" aria-hidden="true">♡</span> <span class="count">709</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Horror" data-title="King of Apocalypse" data-author="Original creator" data-synopsis="When the world ends, one survivor decides he will not just live through it, he will rule what is left." data-chapter="Story Overview" data-cover="images/covers/king-of-apocalypse.jpg" data-url="stories/king-of-apocalypse.html">
+  <div class="cover"><img src="images/covers/king-of-apocalypse.jpg" alt="Book cover of King of Apocalypse by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Horror</span></div>
+  <div class="book-info">
+    <h3>King of Apocalypse</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/king-of-apocalypse.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="king-of-apocalypse" data-base="626" aria-pressed="false" aria-label="Like King of Apocalypse"><span class="heart" aria-hidden="true">♡</span> <span class="count">626</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Fantasy" data-title="Catastrophic Necromancer" data-author="Original creator" data-synopsis="A feared master of the dead returns with old powers and one goal: to use them better this time." data-chapter="Story Overview" data-cover="images/covers/catastrophic-necromancer.jpg" data-url="stories/catastrophic-necromancer.html">
+  <div class="cover"><img src="images/covers/catastrophic-necromancer.jpg" alt="Book cover of Catastrophic Necromancer by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Fantasy</span></div>
+  <div class="book-info">
+    <h3>Catastrophic Necromancer</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/catastrophic-necromancer.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="catastrophic-necromancer" data-base="404" aria-pressed="false" aria-label="Like Catastrophic Necromancer"><span class="heart" aria-hidden="true">♡</span> <span class="count">404</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Martial Arts" data-title="Martial Peak" data-author="Momo" data-synopsis="A humble sect servant stumbles on a strange black book and starts the long climb to the top of the martial world." data-chapter="Story Overview" data-cover="images/covers/martial-peak.jpg" data-url="stories/martial-peak.html">
+  <div class="cover"><img src="images/covers/martial-peak.jpg" alt="Book cover of Martial Peak by Momo" width="400" height="600" loading="lazy"><span class="genre-tag">Martial Arts</span></div>
+  <div class="book-info">
+    <h3>Martial Peak</h3>
+    <p class="author">by Momo</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/martial-peak.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="martial-peak" data-base="714" aria-pressed="false" aria-label="Like Martial Peak"><span class="heart" aria-hidden="true">♡</span> <span class="count">714</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Adventure" data-title="Tomb Raider King" data-author="Original creator" data-synopsis="In a world full of dungeons, one hunter makes a living by raiding the ones nobody else dares to enter." data-chapter="Story Overview" data-cover="images/covers/tomb-raider-king.jpg" data-url="stories/tomb-raider-king.html">
+  <div class="cover"><img src="images/covers/tomb-raider-king.jpg" alt="Book cover of Tomb Raider King by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Adventure</span></div>
+  <div class="book-info">
+    <h3>Tomb Raider King</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/tomb-raider-king.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="tomb-raider-king" data-base="470" aria-pressed="false" aria-label="Like Tomb Raider King"><span class="heart" aria-hidden="true">♡</span> <span class="count">470</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Sci-Fi" data-title="Dungeon Reset" data-author="Original creator" data-synopsis="Every time the dungeon resets, a player must find a way to beat it with only what he has learned." data-chapter="Story Overview" data-cover="images/covers/dungeon-reset.jpg" data-url="stories/dungeon-reset.html">
+  <div class="cover"><img src="images/covers/dungeon-reset.jpg" alt="Book cover of Dungeon Reset by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Sci-Fi</span></div>
+  <div class="book-info">
+    <h3>Dungeon Reset</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/dungeon-reset.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="dungeon-reset" data-base="413" aria-pressed="false" aria-label="Like Dungeon Reset"><span class="heart" aria-hidden="true">♡</span> <span class="count">413</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Sci-Fi" data-title="Return of the Frozen Player" data-author="Original creator" data-synopsis="After being sealed away for years, a powerful player wakes into a world that has moved on without him." data-chapter="Story Overview" data-cover="images/covers/return-of-the-frozen-player.jpg" data-url="stories/return-of-the-frozen-player.html">
+  <div class="cover"><img src="images/covers/return-of-the-frozen-player.jpg" alt="Book cover of Return of the Frozen Player by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Sci-Fi</span></div>
+  <div class="book-info">
+    <h3>Return of the Frozen Player</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/return-of-the-frozen-player.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="return-of-the-frozen-player" data-base="976" aria-pressed="false" aria-label="Like Return of the Frozen Player"><span class="heart" aria-hidden="true">♡</span> <span class="count">976</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Action" data-title="Ranker Return" data-author="Original creator" data-synopsis="A top-ranked fighter comes back to the game world that once made him famous, and finds that the old ranks no longer apply." data-chapter="Story Overview" data-cover="images/covers/ranker-return.jpg" data-url="stories/ranker-return.html">
+  <div class="cover"><img src="images/covers/ranker-return.jpg" alt="Book cover of Ranker Return by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Action</span></div>
+  <div class="book-info">
+    <h3>Ranker Return</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/ranker-return.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="ranker-return" data-base="540" aria-pressed="false" aria-label="Like Ranker Return"><span class="heart" aria-hidden="true">♡</span> <span class="count">540</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Action" data-title="SSS-Class Suicide Hunter" data-author="Original creator" data-synopsis="A hunter with a very strange ability turns the most dangerous situations into his greatest advantage." data-chapter="Story Overview" data-cover="images/covers/sss-class-suicide-hunter.jpg" data-url="stories/sss-class-suicide-hunter.html">
+  <div class="cover"><img src="images/covers/sss-class-suicide-hunter.jpg" alt="Book cover of SSS-Class Suicide Hunter by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Action</span></div>
+  <div class="book-info">
+    <h3>SSS-Class Suicide Hunter</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/sss-class-suicide-hunter.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="sss-class-suicide-hunter" data-base="684" aria-pressed="false" aria-label="Like SSS-Class Suicide Hunter"><span class="heart" aria-hidden="true">♡</span> <span class="count">684</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Sci-Fi" data-title="The Player That Can&#x27;t Level Up" data-author="Original creator" data-synopsis="In a world where everyone grows by leveling, one player is stuck at the bottom, so he finds another way to get stronger." data-chapter="Story Overview" data-cover="images/covers/the-player-that-cant-level-up.jpg" data-url="stories/the-player-that-cant-level-up.html">
+  <div class="cover"><img src="images/covers/the-player-that-cant-level-up.jpg" alt="Book cover of The Player That Can&#x27;t Level Up by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Sci-Fi</span></div>
+  <div class="book-info">
+    <h3>The Player That Can&#x27;t Level Up</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/the-player-that-cant-level-up.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="the-player-that-cant-level-up" data-base="716" aria-pressed="false" aria-label="Like The Player That Can&#x27;t Level Up"><span class="heart" aria-hidden="true">♡</span> <span class="count">716</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Action" data-title="Kill the Hero" data-author="Original creator" data-synopsis="Everyone says the hero will save the world, but one person is determined to stop him." data-chapter="Story Overview" data-cover="images/covers/kill-the-hero.jpg" data-url="stories/kill-the-hero.html">
+  <div class="cover"><img src="images/covers/kill-the-hero.jpg" alt="Book cover of Kill the Hero by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Action</span></div>
+  <div class="book-info">
+    <h3>Kill the Hero</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/kill-the-hero.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="kill-the-hero" data-base="240" aria-pressed="false" aria-label="Like Kill the Hero"><span class="heart" aria-hidden="true">♡</span> <span class="count">240</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Action" data-title="Return to Player" data-author="Original creator" data-synopsis="A veteran gamer is thrown back in time with all his knowledge and a second chance to save the people he lost." data-chapter="Story Overview" data-cover="images/covers/return-to-player.jpg" data-url="stories/return-to-player.html">
+  <div class="cover"><img src="images/covers/return-to-player.jpg" alt="Book cover of Return to Player by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Action</span></div>
+  <div class="book-info">
+    <h3>Return to Player</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/return-to-player.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="return-to-player" data-base="375" aria-pressed="false" aria-label="Like Return to Player"><span class="heart" aria-hidden="true">♡</span> <span class="count">375</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Martial Arts" data-title="The Strongest God King" data-author="Original creator" data-synopsis="A fallen powerhouse is reborn into a weak body and sets out to climb back to the top." data-chapter="Story Overview" data-cover="images/covers/the-strongest-god-king.jpg" data-url="stories/the-strongest-god-king.html">
+  <div class="cover"><img src="images/covers/the-strongest-god-king.jpg" alt="Book cover of The Strongest God King by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Martial Arts</span></div>
+  <div class="book-info">
+    <h3>The Strongest God King</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/the-strongest-god-king.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="the-strongest-god-king" data-base="490" aria-pressed="false" aria-label="Like The Strongest God King"><span class="heart" aria-hidden="true">♡</span> <span class="count">490</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Adventure" data-title="Hunter x Hunter" data-author="Yoshihiro Togashi" data-synopsis="A boy sets out to become a Hunter, an adventurer who explores the unknown, in the hope of finding his father." data-chapter="Story Overview" data-cover="images/covers/hunter-x-hunter.jpg" data-url="stories/hunter-x-hunter.html">
+  <div class="cover"><img src="images/covers/hunter-x-hunter.jpg" alt="Book cover of Hunter x Hunter by Yoshihiro Togashi" width="400" height="600" loading="lazy"><span class="genre-tag">Adventure</span></div>
+  <div class="book-info">
+    <h3>Hunter x Hunter</h3>
+    <p class="author">by Yoshihiro Togashi</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/hunter-x-hunter.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="hunter-x-hunter" data-base="316" aria-pressed="false" aria-label="Like Hunter x Hunter"><span class="heart" aria-hidden="true">♡</span> <span class="count">316</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Comedy" data-title="Get Schooled" data-author="Original creator" data-synopsis="A student with big dreams and bigger problems tries to survive classmates, teachers and exams." data-chapter="Story Overview" data-cover="images/covers/get-schooled.jpg" data-url="stories/get-schooled.html">
+  <div class="cover"><img src="images/covers/get-schooled.jpg" alt="Book cover of Get Schooled by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Comedy</span></div>
+  <div class="book-info">
+    <h3>Get Schooled</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/get-schooled.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="get-schooled" data-base="867" aria-pressed="false" aria-label="Like Get Schooled"><span class="heart" aria-hidden="true">♡</span> <span class="count">867</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Fantasy" data-title="Arcane Sniper" data-author="Original creator" data-synopsis="A marksman who blends magic into every shot becomes a legend from far away, long before anyone sees him." data-chapter="Story Overview" data-cover="images/covers/arcane-sniper.jpg" data-url="stories/arcane-sniper.html">
+  <div class="cover"><img src="images/covers/arcane-sniper.jpg" alt="Book cover of Arcane Sniper by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Fantasy</span></div>
+  <div class="book-info">
+    <h3>Arcane Sniper</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/arcane-sniper.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="arcane-sniper" data-base="564" aria-pressed="false" aria-label="Like Arcane Sniper"><span class="heart" aria-hidden="true">♡</span> <span class="count">564</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Sci-Fi" data-title="Solo Farming in the Tower" data-author="Original creator" data-synopsis="Instead of fighting his way up a dangerous tower, one climber decides to settle down and farm." data-chapter="Story Overview" data-cover="images/covers/solo-farming-in-the-tower.jpg" data-url="stories/solo-farming-in-the-tower.html">
+  <div class="cover"><img src="images/covers/solo-farming-in-the-tower.jpg" alt="Book cover of Solo Farming in the Tower by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Sci-Fi</span></div>
+  <div class="book-info">
+    <h3>Solo Farming in the Tower</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/solo-farming-in-the-tower.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="solo-farming-in-the-tower" data-base="515" aria-pressed="false" aria-label="Like Solo Farming in the Tower"><span class="heart" aria-hidden="true">♡</span> <span class="count">515</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Action" data-title="Villain to Kill" data-author="Original creator" data-synopsis="Someone wakes up as the villain of a story and decides to survive by changing the ending." data-chapter="Story Overview" data-cover="images/covers/villain-to-kill.jpg" data-url="stories/villain-to-kill.html">
+  <div class="cover"><img src="images/covers/villain-to-kill.jpg" alt="Book cover of Villain to Kill by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Action</span></div>
+  <div class="book-info">
+    <h3>Villain to Kill</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/villain-to-kill.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="villain-to-kill" data-base="243" aria-pressed="false" aria-label="Like Villain to Kill"><span class="heart" aria-hidden="true">♡</span> <span class="count">243</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Comedy" data-title="Mashle" data-author="Hajime Komoto" data-synopsis="In a world where magic decides everything, a boy with no magic at all relies on pure muscle." data-chapter="Story Overview" data-cover="images/covers/mashle.jpg" data-url="stories/mashle.html">
+  <div class="cover"><img src="images/covers/mashle.jpg" alt="Book cover of Mashle by Hajime Komoto" width="400" height="600" loading="lazy"><span class="genre-tag">Comedy</span></div>
+  <div class="book-info">
+    <h3>Mashle</h3>
+    <p class="author">by Hajime Komoto</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/mashle.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="mashle" data-base="348" aria-pressed="false" aria-label="Like Mashle"><span class="heart" aria-hidden="true">♡</span> <span class="count">348</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Comedy" data-title="Leveling Up by Only Eating" data-author="Original creator" data-synopsis="A hunter discovers that the quickest way to grow stronger is to eat, and he is very good at it." data-chapter="Story Overview" data-cover="images/covers/leveling-up-by-only-eating.jpg" data-url="stories/leveling-up-by-only-eating.html">
+  <div class="cover"><img src="images/covers/leveling-up-by-only-eating.jpg" alt="Book cover of Leveling Up by Only Eating by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Comedy</span></div>
+  <div class="book-info">
+    <h3>Leveling Up by Only Eating</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/leveling-up-by-only-eating.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="leveling-up-by-only-eating" data-base="164" aria-pressed="false" aria-label="Like Leveling Up by Only Eating"><span class="heart" aria-hidden="true">♡</span> <span class="count">164</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Horror" data-title="My Girlfriend Is a Zombie" data-author="Original creator" data-synopsis="When the apocalypse begins, a young man refuses to give up on the girl he loves, even after she changes." data-chapter="Story Overview" data-cover="images/covers/my-girlfriend-is-a-zombie.jpg" data-url="stories/my-girlfriend-is-a-zombie.html">
+  <div class="cover"><img src="images/covers/my-girlfriend-is-a-zombie.jpg" alt="Book cover of My Girlfriend Is a Zombie by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Horror</span></div>
+  <div class="book-info">
+    <h3>My Girlfriend Is a Zombie</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/my-girlfriend-is-a-zombie.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="my-girlfriend-is-a-zombie" data-base="661" aria-pressed="false" aria-label="Like My Girlfriend Is a Zombie"><span class="heart" aria-hidden="true">♡</span> <span class="count">661</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Drama" data-title="Doctor Rebirth" data-author="Original creator" data-synopsis="A skilled doctor gets a second chance at life and decides to do medicine better this time." data-chapter="Story Overview" data-cover="images/covers/doctor-rebirth.jpg" data-url="stories/doctor-rebirth.html">
+  <div class="cover"><img src="images/covers/doctor-rebirth.jpg" alt="Book cover of Doctor Rebirth by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Drama</span></div>
+  <div class="book-info">
+    <h3>Doctor Rebirth</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/doctor-rebirth.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="doctor-rebirth" data-base="519" aria-pressed="false" aria-label="Like Doctor Rebirth"><span class="heart" aria-hidden="true">♡</span> <span class="count">519</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Drama" data-title="Medical Return" data-author="Original creator" data-synopsis="A doctor comes back to the operating room and finds that the world of medicine has changed." data-chapter="Story Overview" data-cover="images/covers/medical-return.jpg" data-url="stories/medical-return.html">
+  <div class="cover"><img src="images/covers/medical-return.jpg" alt="Book cover of Medical Return by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Drama</span></div>
+  <div class="book-info">
+    <h3>Medical Return</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/medical-return.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="medical-return" data-base="436" aria-pressed="false" aria-label="Like Medical Return"><span class="heart" aria-hidden="true">♡</span> <span class="count">436</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Fantasy" data-title="Transcension Academy" data-author="Original creator" data-synopsis="A student enters a famous academy of magic and finds that its secrets are far bigger than its classes." data-chapter="Story Overview" data-cover="images/covers/transcension-academy.jpg" data-url="stories/transcension-academy.html">
+  <div class="cover"><img src="images/covers/transcension-academy.jpg" alt="Book cover of Transcension Academy by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Fantasy</span></div>
+  <div class="book-info">
+    <h3>Transcension Academy</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/transcension-academy.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="transcension-academy" data-base="617" aria-pressed="false" aria-label="Like Transcension Academy"><span class="heart" aria-hidden="true">♡</span> <span class="count">617</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Fantasy" data-title="Monster Pet Evolution" data-author="Original creator" data-synopsis="A beginner tames a weak little monster and helps it grow into something extraordinary." data-chapter="Story Overview" data-cover="images/covers/monster-pet-evolution.jpg" data-url="stories/monster-pet-evolution.html">
+  <div class="cover"><img src="images/covers/monster-pet-evolution.jpg" alt="Book cover of Monster Pet Evolution by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Fantasy</span></div>
+  <div class="book-info">
+    <h3>Monster Pet Evolution</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/monster-pet-evolution.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="monster-pet-evolution" data-base="586" aria-pressed="false" aria-label="Like Monster Pet Evolution"><span class="heart" aria-hidden="true">♡</span> <span class="count">586</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Action" data-title="Max Level Returner" data-author="Original creator" data-synopsis="After reaching the highest level, a hero goes back to the beginning with everything he has learned." data-chapter="Story Overview" data-cover="images/covers/max-level-returner.jpg" data-url="stories/max-level-returner.html">
+  <div class="cover"><img src="images/covers/max-level-returner.jpg" alt="Book cover of Max Level Returner by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Action</span></div>
+  <div class="book-info">
+    <h3>Max Level Returner</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/max-level-returner.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="max-level-returner" data-base="688" aria-pressed="false" aria-label="Like Max Level Returner"><span class="heart" aria-hidden="true">♡</span> <span class="count">688</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Sci-Fi" data-title="Bug Player" data-author="Original creator" data-synopsis="A gamer discovers how to exploit glitches in a game world, and starts bending its rules in surprising ways." data-chapter="Story Overview" data-cover="images/covers/bug-player.jpg" data-url="stories/bug-player.html">
+  <div class="cover"><img src="images/covers/bug-player.jpg" alt="Book cover of Bug Player by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Sci-Fi</span></div>
+  <div class="book-info">
+    <h3>Bug Player</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/bug-player.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="bug-player" data-base="531" aria-pressed="false" aria-label="Like Bug Player"><span class="heart" aria-hidden="true">♡</span> <span class="count">531</span></button>
+    </div>
+  </div>
+</article>
+<article class="book-card" data-genre="Adventure" data-title="Rise From the Rubble" data-author="Original creator" data-synopsis="After a disaster destroys everything, a determined survivor starts again from the ruins." data-chapter="Story Overview" data-cover="images/covers/rise-from-the-rubble.jpg" data-url="stories/rise-from-the-rubble.html">
+  <div class="cover"><img src="images/covers/rise-from-the-rubble.jpg" alt="Book cover of Rise From the Rubble by Original creator" width="400" height="600" loading="lazy"><span class="genre-tag">Adventure</span></div>
+  <div class="book-info">
+    <h3>Rise From the Rubble</h3>
+    <p class="author">by Original creator</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-sm" href="stories/rise-from-the-rubble.html">Read Story</a>
+      <button class="btn btn-outline btn-sm details-btn" type="button">Details</button>
+      <button class="btn like-btn btn-sm" type="button" data-id="rise-from-the-rubble" data-base="950" aria-pressed="false" aria-label="Like Rise From the Rubble"><span class="heart" aria-hidden="true">♡</span> <span class="count">950</span></button>
+    </div>
+  </div>
+</article>
+      </div>
+      <p class="empty-msg" id="emptyMsg">No stories match your search. Try another word or genre.</p>
+    </section>
+    <aside class="sidebar" aria-label="Sidebar">
+  <section class="side-box"><div class="sec-head sc-crimson"><h2><span>Most liked stories</span></h2></div><ol class="rank-list" style="list-style:none"><li><a href="stories/return-of-the-frozen-player.html"><span class="go"><svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 5h7M5 2l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="t">Return of the Frozen Player</span><span class="n">&hearts; 976</span></a></li><li><a href="stories/rise-from-the-rubble.html"><span class="go"><svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 5h7M5 2l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="t">Rise From the Rubble</span><span class="n">&hearts; 950</span></a></li><li><a href="stories/get-schooled.html"><span class="go"><svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 5h7M5 2l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="t">Get Schooled</span><span class="n">&hearts; 867</span></a></li><li><a href="stories/the-player-that-cant-level-up.html"><span class="go"><svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 5h7M5 2l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="t">The Player That Can&#x27;t Level Up</span><span class="n">&hearts; 716</span></a></li><li><a href="stories/martial-peak.html"><span class="go"><svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 5h7M5 2l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="t">Martial Peak</span><span class="n">&hearts; 714</span></a></li><li><a href="stories/overgeared.html"><span class="go"><svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 5h7M5 2l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="t">Overgeared</span><span class="n">&hearts; 709</span></a></li><li><a href="stories/max-level-returner.html"><span class="go"><svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 5h7M5 2l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="t">Max Level Returner</span><span class="n">&hearts; 688</span></a></li><li><a href="stories/sss-class-suicide-hunter.html"><span class="go"><svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 5h7M5 2l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="t">SSS-Class Suicide Hunter</span><span class="n">&hearts; 684</span></a></li><li><a href="stories/my-girlfriend-is-a-zombie.html"><span class="go"><svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 5h7M5 2l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="t">My Girlfriend Is a Zombie</span><span class="n">&hearts; 661</span></a></li><li><a href="stories/king-of-apocalypse.html"><span class="go"><svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 5h7M5 2l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="t">King of Apocalypse</span><span class="n">&hearts; 626</span></a></li></ol></section>
+  <section class="side-box"><div class="sec-head sc-blue"><h2><span>Genres</span></h2></div><ul class="genre-list"><li><a href="library.html?genre=Action">Action<span>8</span></a></li><li><a href="library.html?genre=Sci-Fi">Sci-Fi<span>6</span></a></li><li><a href="library.html?genre=Horror">Horror<span>2</span></a></li><li><a href="library.html?genre=Fantasy">Fantasy<span>4</span></a></li><li><a href="library.html?genre=Martial Arts">Martial Arts<span>2</span></a></li><li><a href="library.html?genre=Adventure">Adventure<span>3</span></a></li><li><a href="library.html?genre=Comedy">Comedy<span>3</span></a></li><li><a href="library.html?genre=Drama">Drama<span>2</span></a></li></ul></section>
+</aside>
+  </div>
+</main>
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+  <div class="modal">
+    <button class="icon-btn modal-close" type="button" aria-label="Close details">✕</button>
+    <img src="" alt="">
+    <div>
+      <h2 id="mTitle"></h2>
+      <p class="meta-line" id="mAuthor"></p>
+      <p class="meta-line" id="mGenre"></p>
+      <p id="mSynopsis"></p>
+      <a class="btn btn-primary" id="mRead" href="#">Read Story</a>
+    </div>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h3>Manhwa Mihon Stories</h3>
+        <p>A storybook library of 30 popular action and fantasy series, each with a short overview across 8 genres. Find your next favorite series.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="library.html">Library</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Genres</h3>
+        <ul>
+          <li><a href="library.html?genre=Fantasy">Fantasy</a></li>
+          <li><a href="library.html?genre=Action">Action</a></li>
+          <li><a href="library.html?genre=Sci-Fi">Sci-Fi</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">&copy; 2026 Manhwa Mihon Stories &bull; ITE 1 Project &bull; Overviews are original; series belong to their creators.</p>
+  </div>
+</footer>
+</body>
+</html>
